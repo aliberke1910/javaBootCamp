@@ -1,0 +1,25 @@
+RDBMS	Relational Database Management System: İlişkisel veri tabanı yönetim sistemi	
+Oracle, Sql Server, My Sql, Postgre Sql, Access	ANSI SQL standart
+PlSql, T-Sql	
+Normalisation - Amaç veri kaçaklarını engellemektir.
+
+NoSql	MongoDB, Firebase: Sıklıkla loglama işlemlerinde									
+RDBMS katı bir ilişkisellik mevcuttur.												
+
+Tablo: Bizim nesnelerimizi tutan yapıdır. Yani bizim oluşturduğumuz objeleri (örnek: Customer, User, Gamer) tutan yapılardır.
+Tabloların doğru isimlendirilmesi plural yani çoğul olarak yapılmalıdır.
+Tabloların kolonları olur.
+id: bir datayı diğer datalardan ayıran bilgidir. Genellikle TC veya müşteri no vermek yerine kendi kendine artan bir nunara yapısı tercih edilir.
+Tablodaki her bir satır sizin Java'da C#'ta ya da Python'da oluşturmuş olduğunuz bir class'a denk gelir.
+
+Normalisation - DRY don't repeat yourself (kendini tekrar etme) en çok buna odaklanmıştır.
+Bir yerde belli şehirler vardır bu yüzden elle girilmemelidir. Burada hatalı girişlere veya veri kaçaklarına meydana gelebilir.
+Verilein sırlama standartı: Önce kendi Id'si | varsa ilişkili Id'ler | kendi özel alanları
+
+Primary Key: Bir tabloda ilgili kolon primary key ise bir daha tekrar edemez anlamına gelir.
+Unique Key: Eşsiz anahtar
+Foreign Key:
+
+2 tane kolonu primary key yapmak yerine, 2 tane kolonu unique key olarak veriyoruz.
+Overdesign: Aşırı tasarım, bizim için yönetilebilir bir yapı olmaktan çıkmış olan tasarımdır. Her kurumun, şahsın farklıdır.
+Handle: kontrol altında, üstesinde gelme 
